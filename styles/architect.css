@@ -36,6 +36,16 @@ nav li a{
     color: #424242;
     font-weight: 500;
 }
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: white;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
 /* banner style  */
 
@@ -51,4 +61,32 @@ nav li a{
 }
 .banner-description{
     color: #727272;
+}
+.banner-img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+
+/* mobile device */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 }

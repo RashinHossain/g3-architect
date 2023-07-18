@@ -21,13 +21,15 @@ nav{
     justify-content: space-between;
     justify-items: center;
 }
-.nav-title{
+.sec-title{
     font-size: 3rem;
     color: #131313;
     font-weight: 700S;
 }
 nav > ul{
     display: flex;
+    
+    align-items: center;
 }
 nav li{
     list-style: none;
